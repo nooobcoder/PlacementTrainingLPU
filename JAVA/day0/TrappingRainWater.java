@@ -1,4 +1,4 @@
-package day0;
+package JAVA.day0;
 
 import java.util.Stack;
 

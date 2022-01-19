@@ -1,4 +1,4 @@
-package day0;
+package JAVA.day0;
 
 public class TwoPeopleMeet {
     /**
@@ -60,7 +60,7 @@ public class TwoPeopleMeet {
         int v1 = 6;
         int v2 = 8;
 
-//        System.out.println(isMet(s1, s2, v1, v2));
+        // System.out.println(isMet(s1, s2, v1, v2));
         System.out.println(isMetEquation(s1, s2, v1, v2));
     }
 }

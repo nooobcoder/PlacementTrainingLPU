@@ -1,4 +1,4 @@
-package day0;
+package JAVA.day0;
 
 // Source: https://leetcode.com/problems/majority-element/
 
