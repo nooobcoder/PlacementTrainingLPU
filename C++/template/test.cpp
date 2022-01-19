@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 void solve();
@@ -20,11 +21,12 @@ int main() {
         cout << "\n";
     }
 
-    cerr << "time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
+    cerr << "time taken : " << (float) clock() / CLOCKS_PER_SEC << " secs" << endl;
 
     cin.get();
     return 0;
 }
+
 void solve() {
     cout << "Hello World (2)"
          << "\n";

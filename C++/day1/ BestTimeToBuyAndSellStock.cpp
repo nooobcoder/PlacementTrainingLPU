@@ -7,13 +7,14 @@ LOWEST RATE =    7 1 1 1 1 1 Buying
 */
 
 #include <bits/stdc++.h>
+
 #define endl '\n'
 
 using namespace std;
 
 class Solution {
-   public:
-    int maxProfit(vector<int>& prices) {
+public:
+    int maxProfit(vector<int> &prices) {
         int n = prices.size(), maxa = INT_MIN;
         int mini = INT_MAX;
         for (int i = 0; i < n; i++) {
