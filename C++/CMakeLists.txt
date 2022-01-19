@@ -13,3 +13,5 @@ add_executable(${BUILD_2} ${SOURCE_FILES_2})
 add_executable(test template/test.cpp)
 add_executable( BestTimeToBuyAndSellStock "day0/ BestTimeToBuyAndSellStock.cpp")
 add_executable(Search2DMatrix day0/Search2DMatrix.cpp)
+
+add_executable(SearchInSortedRotatedArray day1/SearchInSortedRotatedArray.cpp)
