@@ -6,16 +6,11 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${fileDirname}/${fileBasenameNoExtension}.out",
-			"args": [
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
-			],
+			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}",
 			"environment": [],
-			"externalConsole": false,
+			"console": "internalConsole",
 			"MIMode": "gdb",
 			"setupCommands": [
 				{
