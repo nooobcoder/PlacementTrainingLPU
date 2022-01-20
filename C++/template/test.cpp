@@ -2,9 +2,6 @@
 * Note: This template uses some c++11 functions , so you have to compile it with c++11 flag.
 *       Example:-   $ g++ -std=c++11 c++Template.cpp
 *
-* Author : Akshay Pratap Singh
-* Handle: code_crack_01
-*
 */
 
 /********   All Required Header Files ********/
@@ -52,6 +49,7 @@ using namespace std;
 #define FOREACH(it, l) for (auto it = l.begin(); it != l.end(); it++)
 #define IN(A, B, C) assert(B <= A && A <= C)
 #define MP make_pair
+#define ENDL "\n"
 #define PB push_back
 #define INF (int)1e9
 #define EPS 1e-9
@@ -168,9 +166,11 @@ private:
 /**************************************/
 
 /******** User-defined Function *******/
-int solve()
+void solve()
 {
-    cout << "Hello World, maza!" << endl;
+    int num{0};
+    cin >> num;
+    write(num % 2 == 0 ? 1 : 0);
 }
 /**************************************/
 
