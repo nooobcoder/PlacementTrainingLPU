@@ -1,0 +1,29 @@
+Given a Binary Tree which is considered special if the value of the root node is always 1 and every left child of a node is even and every right child of the node is odd. Write a program to convert a binary tree into a special Binary tree by decreasing 1 from left node's value to make them even, and by increasing 1 to right node's value to make them odd. And Just set 1 to root.  Note: The solution should be implemented with O(n) time complexity and O(1) complexity.  Input: First number is number of nodes in Tree, Second is root node, From third onwards it's level order traversal of tree assuming tree is complete tree where null nodes are defined by "-".Output: Inorder Traversal of treeFor Ex:
+
+Given a LinkedList, where each node contains small case characters, you are asked to form a ‘strong password’ using characters from that LinkedList. A ‘strong password’ is the one in which no two characters are repeating. The output password must be a continuous subset of the given LinkedList.  Find the length of the strongest password that can be formed using the input LinkedList.      Example 1:  Input: s = a->b->c->a->b->c->b->b  Output: 3  Explanation: The answer is a->b->c, with the length of 3.     Example 2:  Input: s = p->w->w->k->e->w  Output: 3  Explanation: The answer is w->k->e, with the length of 3.  Notice that the answer must be a continuous subset, p->w->k->e is a subset and not a continuous subset    Expected Time Complexity: O(n)  Expected Space Complexity: O(1)
+
+
+6
+p
+w
+w
+k
+e
+w
+
+2
+
+8
+a
+b
+c
+a
+b
+c
+b
+b
+
+2
+
+
+A teacher has been given a task to select a group of students for a quiz. An array of integers represents a number of students standing in a line and the value at any index represents the intelligence of that student. The teacher can only select a student or a group of students if the total intelligence of students standing consecutively is equal to an integer ‘k’. Find how many choices the teacher has to select a group.    Example 1  Input: intelligence = [1,1,1], k = 2  Output: 2    Example 2  Input: intelligence = [1,2,3], k = 3  Output: 2  Explanation: The teacher can select either the group of students at 0 and 1 index or student at index 2 alone.    Time Complexity - O(N)  Space Complexity - O(N)
