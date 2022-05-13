@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="1" time="24.79">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-05-13T06:28:28" time="20.328" tests="7">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.443">
+    </testcase>
+    <testcase classname=" + operation works" name=" + operation works" time="0.3">
+    </testcase>
+    <testcase classname=" - operation works" name=" - operation works" time="0.145">
+    </testcase>
+    <testcase classname=" * operation works" name=" * operation works" time="0.133">
+    </testcase>
+    <testcase classname=" / operation works" name=" / operation works" time="0.096">
+    </testcase>
+    <testcase classname=" total operations count is maintained" name=" total operations count is maintained" time="0.262">
+    </testcase>
+    <testcase classname=" Reset button works" name=" Reset button works" time="0.131">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Total operations performed: 1
+Received:
+  Total operations performed: 0
+    at Object.&lt;anonymous&gt; (/home/workspace/project/react-codeground/src/App.test.js:137:26)
+    at Object.asyncJestTest (/home/workspace/project/react-codeground/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/workspace/project/react-codeground/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/workspace/project/react-codeground/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/workspace/project/react-codeground/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
